@@ -11,4 +11,7 @@
   <!-- About The Project-->
 ## About The Project
 
-(img/BookImg.png)
+<a href="img/BookImg.png">
+    <img src="img/BookImg.png" alt="Logo" width="200" height="200">
+  </a>
+
