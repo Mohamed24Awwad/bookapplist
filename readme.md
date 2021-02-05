@@ -12,13 +12,17 @@
 ## About The Project (Screens).
 
 <a href="img/BookImg.png">
-    <img src="img/BookImg.png" alt="Logo" width="300" height="300">
+    <img src="img/BookImg.png" alt="Logo" width="100" height="300">
   </a>
   <a href="img/landingPage.png">
-    <img src="img/landingPage.png" alt="Logo" width="300" height="300">
+    <img src="img/landingPage.png" alt="Logo" width="100" height="300">
+  </a>
+  </a>
+  <a href="img/bookadded.png">
+    <img src="img/bookadded.png" alt="Logo" width="100" height="300">
   </a>
   
-  
+
   
   _Feel Free To Clone Dude ;)_ 
 ==============================
