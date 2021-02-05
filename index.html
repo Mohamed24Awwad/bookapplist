@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Book List App | Js Practise</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+
+  <!-- Add custom CSS here -->
+  <link href="css/half-slider.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ----------------------------------------------------------------------- -->
+  <!--                            Carousel Section                             -->
+  <!-- ----------------------------------------------------------------------- -->
+
+  <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <List class="navbar-brand" href=""">Projects &ssmile;  List </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class=" collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="./book.html">Book App</a></li>
+
+          </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+  </nav>
+
+  <div id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+
+        <div class="fill" style="background-image:url('https://source.unsplash.com/random/200x200');"></div>
+        <div class="carousel-caption">
+          <h1>Monky Code ;)</h1>
+        </div>
+      </div>
+      <div class="item">
+        <div class="fill" style="background-image:url('./img/banner2.jpg');"></div>
+        <div class="carousel-caption">
+          <h1>Coffe's Time </h1>
+        </div>
+      </div>
+      <div class="item">
+        <div class="fill" style="background-image:url('./img/banner3.jpg');"></div>
+        <div class="carousel-caption">
+          <h1>Make it Simple</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="icon-next"></span>
+    </a>
+  </div>
+
+  <footer>
+    <div class="row">
+      <div class="col-lg-12">
+        <p>Copyright &copy; M.Awwad 2021</p>
+      </div>
+    </div>
+  </footer>
+
+  </div><!-- /.container -->
+
+  <!-- JavaScript -->
+  <script src="js/jquery-1.10.2.js"></script>
+  <script src="js/bootstrap.js"></script>
+
+  <!-- Script to Activate the Carousel -->
+  <script>
+    $('.carousel').carousel({
+      interval: 2000 //changes the speed
+    })
+  </script>
+
+</body>
+
+</html>
