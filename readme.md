@@ -26,7 +26,6 @@
   
   _Feel Free To Clone Dude ;)_ 
 ==============================
-Just A repo To share Challenges and Answers in JS Prespective .
 Pull to your Local Repo 
 -----------------------
 ```
@@ -36,8 +35,8 @@ git pull https://github.com/Mohamed24Awwad/bookapplist.git
 
 
 >Dependencies
-
+```
 1) Just A web Browser :)
-
+```
   
 
