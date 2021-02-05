@@ -10,7 +10,7 @@
 <br />
 <p align="center">
   <a href="./img/logo.png">
-    <img src="./img/logo.png" alt="Logo" width="80" height="80">
+    <img src="./img/logo.png" alt="Logo" width="120" height="120">
   </a>
 
   <h3 align="center">Book List App </h3>
@@ -19,4 +19,6 @@
   <!-- About The Project-->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](./img/Bookimh.png)
+<a href="./img/logo.png">
+    <img src="./img/Bookimg.png" alt="Logo" width="400" height="400">
+  </a>
