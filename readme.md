@@ -38,5 +38,14 @@ git pull https://github.com/Mohamed24Awwad/bookapplist.git
 ```
 1) Just A web Browser :)
 ```
+
+>Technologies Used
+```
+1-HTML5
+2-Css3
+3-Vanilla JavaScript
+4-Little bit JQuery 
+5-BootStrap 04
+```
   
 
