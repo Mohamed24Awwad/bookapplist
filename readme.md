@@ -12,14 +12,28 @@
 ## About The Project (Screens).
 
 <a href="img/BookImg.png">
-    <img src="img/BookImg.png" alt="Logo" width="400" height="400">
+    <img src="img/BookImg.png" alt="Logo" width="300" height="300">
   </a>
   <a href="img/landingPage.png">
-    <img src="img/landingPage.png" alt="Logo" width="400" height="400">
+    <img src="img/landingPage.png" alt="Logo" width="300" height="300">
   </a>
   
   
   
-  
+  _Feel Free To Clone Dude ;)_ 
+==============================
+Just A repo To share Challenges and Answers in JS Prespective .
+Pull to your Local Repo 
+-----------------------
+```
+git pull https://github.com/Mohamed24Awwad/bookapplist.git 
+
+```
+
+
+>Dependencies
+
+1) Just A web Browser :)
+
   
 
