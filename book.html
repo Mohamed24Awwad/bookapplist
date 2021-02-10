@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Book Store App</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+   <link rel="stylesheet" href="./css/book.css">
+</head>
+
+<body>
+
+   <!-- ----------------------------------------------------------------------- -->
+   <!--                            Book App Section                             -->
+   <!-- ----------------------------------------------------------------------- -->
+
+   <div class="container mt-4">
+      <h1 class="display-4 text-center">
+         <i class="fas fa-book-open bg-gradient-light text-secondary"></i> My<span class="text-dark">Book</span>List
+      </h1>
+      <form id="book-form">
+         <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" id="title" class="form-control" autocomplete="off" >
+         </div>
+         <div class="form-group">
+            <label for="author">Author</label>
+            <input type="text" id="author" class="form-control" autocomplete="off">
+         </div>
+         <div class="form-group">
+            <label for="isbn">B.Number</label>
+            <input type="text" id="isbn" class="form-control" autocomplete="off" autofocus="on">
+         </div>
+         <input type="submit" value="Add Book" class="btn btn-dark btn-block mt-4">
+      </form>
+      <table class="table table-striped mt-5">
+         <thead>
+            <tr>
+               <th>Title</th>
+               <th>Author</th>
+               <th>B.Number</th>
+               <th></th>
+            </tr>
+         </thead>
+         <tbody id="book-list"></tbody>
+      </table>
+   </div>
+
+<!-- ----------------------------------------------------------------------- -->
+<!--                             Footer Section                              -->
+<!-- ----------------------------------------------------------------------- -->
+
+   <footer class="fsticky">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Copyright &copy; M.Awwad 2021</p>
+        </div>
+      </div>
+    </footer>
+
+   <!-- BootStrap 04 -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"></script>
+
+   <!-- App JS  -->
+   <script src="./js/main.js"></script>
+</body>
+
+</html>
