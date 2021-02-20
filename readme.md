@@ -5,7 +5,7 @@
 
 
   <h3 align="center">Book List App :boy:</h3>
-  <h4 align="center"><a href="https://mohamed24awwad.github.io/bookapplist/.">Follow The Link To Use WebSite</a></h4>
+  <h4 align="center" target="blank"><a href="https://mohamed24awwad.github.io/bookapplist/.">Follow The Link To Use WebSite</a></h4>
   
 
 
@@ -14,7 +14,7 @@
 
 <a href="img/BookImg.png">
     <img src="img/BookImg.png" alt="Logo" width="300" height="300">
-  </a>
+  </a>=
   <a href="img/landingPage.png">
     <img src="img/landingPage.png" alt="Logo" width="300" height="300">
   </a>
